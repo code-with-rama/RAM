@@ -1,0 +1,111 @@
+                         INTERVIEW RELATED-2
+
+                
+1. VMss  --------                      D
+2.load balencer ----                   D
+3. apllication gateway ----            D
+4. traffic manager -----               D
+5. point to point and point to site----D
+6. Azure sql database ----             D
+7. Azure monitor ----                  UNDONE
+8. network watcher -----               D
+9. azure app service---                D
+10. azure app service plan---          D
+11. VMSS--                             D]
+12. NSG---                             D
+12. NIC---                             D
+ 
+
+     #### REST API--- jo hmko ek website se dusri link pr lekr jate h. #####
+
+** Build, change, and destroy Azure infrastructure using Terraform. 
+** Azure PowerShell is designed for managing  Azure resources from the command line.
+
+** SKU--  basically signify a purchasable SKU under a product.
+('Stock-keeping-Unit' )
+
+##  Azure storage offers different access tiers, allowing you to store blob object data in  the most cost-effective manner. Available access tiers include: Hot - Optimized for  storing data that is accessed frequently. Cool - Optimized for storing data that is  infrequently accessed and stored for at least 30 days.
+
+  ## Azure DNS is a hosting service for DNS domains that provides name resolution by using Microsoft Azure infrastructure.
+
+
+
+
+1. NSG--NSG contain security rule that allow or deny inbound network traffic or outbound network trffic.
+
+2. NIC--NIC is the component which hold the of public IP and Private  IP of the VM. Also you can associate the NSG to the NIC.
+        
+3. NETWORK WATCHER--Azure network watcher provides monitoring for IAAS resources 
+                    in azure Vnet.
+4. PORT--
+5. AZURE TRAFFIC MANAGER--Azure Traffic Manager is a DNS-based traffic 
+                        load balancer. This service allows you to 
+                        distribute traffic to your public facing 
+                        applications across the global Azure regions.
+
+
+6. Encryption-- Encryption is the process of the converting data to an "encrypted " form.
+                It is commnly used to protect sensitive information.
+
+  
+7. Differnce B/W standard and premium storage--Premium storage stores data on SSDs form whereas standard storage stores data on HDDs form.
+
+ SSds-- solid state drives
+ HDDs-- hard disk drives 
+
+8. AZURE RESOURCE GROUP--A Azure resource group is a container that holds related resource for an azure solution.
+                         
+
+9. APPLICATION GATEWAY-- Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications.
+         
+
+10. VMSS--Azure virtual machine scale sets provide high availability to your applications,and allow you to centrally manage, configure, and update a large number of VMs.
+
+
+11. AZURE APP SERVICE-- Azure App Service-- Azure App Service is a fully managed 
+   web hosting service for building web apps, mobile back ends 
+   and RESTful APIs. 
+ ** app service m kisi bhi language ko use kr skte h like (java , python,.net, node js     etc..)
+
+12. AZURE APP SERVICE PLAN--An App Service plan defines a set of
+   compute resources for a web app to run. 
+   One or more apps can be configured to run on the
+   same computing resources (or in the same App Service plan).
+
+
+13. Azure Monitor----
+   Azure Monitor helps you maximize the availability and performance of your applications  
+   and services. It delivers a comprehensive solution for collecting, analyzing, and acting
+     on telemetry from your cloud and on-premises environments.
+
+14. AVAILABILITY SET IN VM--In availbility set more than one VM can resides.
+                            With the help of availabbility set you can manage the   availability of your VM. Availability sets let you scale up and down your compute 
+  resources as the demand grows and shrinks.
+
+15. WEB APPS--Azure app service developers repidly build , deploy and manage powerful 
+              websites and web apps.Build standarda-based web apps and API using
+     .NET,PHP,JAVA and PYTHON etc. deliver both web and mobile apps for employees or customers.
+
+
+
+16. DIFF. B/W PUBLIC AND INTERNAL LOAD BALENCER---** Public Load Balancers are used to 
+    load balance internet traffic to your VMs.
+
+**  Internal load balancers are used to load balance traffic inside a virtual network.
+
+
+ ## difference between Azure monitor and log analytics--Azure Monitor is the tool to get  
+ the data from the Azure resources, and Log Analytics is the tool to query that data if  
+  you want to query over multiple resources.
+
+ *** PRICING TIERS-- The Basic pricing tier is designated for production sites, supporting 
+     smaller sites, as well as development and testing scenarios.
+
+ ***  Access control (IAM) ---is the page that you typically use to assign roles to grant access
+                              to Azure resources.
+
+*** A service tag--- represents a group of IP address prefixes from a given Azure service.
+
+ *** The Activity log is a platform log in Azure that provides insight into subscription-
+      level events. 
+
