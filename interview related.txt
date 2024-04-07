@@ -1,0 +1,217 @@
+    ######     New interview related questions    ######
+
+
+
+                  
+   1. VMss  2.load balencer 3. apllication gateway 4. traffic manager 5. point to point and point to site
+  6. Azure sql database 7. Azure monitor 8. network watcher 
+
+  
+
+
+ 1. MYSQL port-- 3306
+ 2. HTML port-- 80 or 443
+ 3. Hypertext Transfer Protocol (HTTP)-- 80
+ 4. SSH port-- 22
+ 5. SFTP port-- 22,, HTTPS--443,, RDP--3389
+
+ RESOURCE GROUP---A resource group is a container that holds related 
+                  resources for an Azure solution.
+
+ NETWORK WATCHER--The Azure Network Watcher provides monitoring 
+                  for Infrastructure-as-a-Service (IaaS)
+                  resources in Azure virtual networks.
+                  
+
+ AZURE TRAFFIC MANAGER--Azure Traffic Manager is a DNS-based traffic 
+                        load balancer. This service allows you to 
+                        distribute traffic to your public facing 
+                        applications across the global Azure regions.
+                        
+
+ 6.Encryption--        Encryption is the process of converting data to 
+                      an "encrypted" form. It is commonly used to
+                      protect sensitive information so that only 
+                      authorized parties can view it.
+ 
+
+ National security group(NSG)
+
+ 8. NSG-- A network security group contains security rules that 
+         allow or deny inbound network traffic , or outbound 
+         network traffic.
+
+
+ Network interface(NIC)
+
+
+ 9. NIC-- A NIC is a component which holds the Public IP and the
+         private IP of the VM. Also you can associate the NSG to 
+         the NIC.
+
+
+ NIC can be deployed in a subnet of the Virtual Network.
+
+ 10. PAAS-- It is a service provider.Which gives the customer a platform,
+           which they can easily create,manage and deliver software
+           applications.
+
+ 11. IAAS-- It is a service model.Which the customer is provided with 
+           hardware, networking and storage in the cloud enviroment.
+
+ 12. SAAS-- It is a distribution modal. That makes software applications
+           (such as-browser) avialble to customers as a service int the
+           internet.
+
+ 13. STORAGE SERVICES--blob,table,queve and file storage.
+
+   Blob storage--A blob can be any type of text and binary data or
+                 application installer.
+
+  Table storage--These tables are designed to store large ammount of
+                 data. Where some basic structure is required but 
+                 relationship b/w data does not need to be maintain.
+ Queve storage--Provides reliable messaging for workflow processing
+                and for communication b/w components of cloud service.
+
+ File storage--It is a SMB(service MSG block) implementation that 
+               provides an easy method to share storage within an azure region.
+
+ 14. Differnce B/W standard and premium storage--
+
+
+ Premium Storage stores data on the latest technology Solid State
+ Drives (SSDs) whereas Standard Storage stores data on Hard Disk 
+ Drives (HDDs).
+
+ ** Azure k andr 54 region hote h.india m 3 region (datacenter h).
+ 
+ 15. VM-- agr port allow ni kiya to RDP ni le payenge.RDP port VM ko
+         access krne k liye lenge. or HTTP and HTTPS se bhi access kr skte h
+         internet k through.(RDP--Remote Destop) 
+
+ 16. CDN-- It is a highly-distibuted platform of servers that helps minimize delay 
+          in loading web page content by reducing the physical distance b/w
+          the server and user.
+
+ 17. Azure storage--Azure storage provides the flexibility to store
+                   and retrieve large amounts of unstructure data
+                   such as documents and media files.
+ Advantage: Azure storage provides secure backup and disaster recovery
+           and can store data for analysis by an on-premise.
+
+ ** Two types of azure storage: 1.Standard storage 2. Premium storage
+
+ 18. Premium storage--Premium storage account currently support azure 
+                     vm disks only. premium storage delivers high-
+                     performance, low latency disk support for I/O 
+                     intensive workloads running on azure vm.
+
+ 19. VPN gATEWAy--It is a specific type of virtual network gateway  
+                 that is used to send encrypted traffic b/w an azure 
+                 virtual network and on-premises location over public internet.
+                 
+ ** VPN is aconnection between two or more networks.
+ ** Advantage--* connect your datacenter  to the cloud.
+              * connect your azure virtual networks from anywhere.
+
+ 20.Azure active Directory--It is microsoft, cloud based directory and 
+                           identity management service.For an organization
+                           azure active directory helps employees 
+                           sign up to multiple services and access them
+                           anywhere.
+
+ 21. Cloud computing-- cloud computing is the delivery of diffent services
+                      through the internet. include storage, servers,database
+                      ,networking and software.
+  Ex- cloud computing provider is googles gmail.Gmail users can access
+      files and applications. 
+  
+  ## Cloud service--It is a form of PAAS. It is used to support applications that are scalble,
+                    reliable and cheap to operate.
+  ** cloud service relies on two options 1. Web Role  2.Worker role
+
+! 1. Web role--A service component that is customised for web application programming and 
+               supported by internet information service  and ASP.net .A web role is intended to 
+               work front to cloud service.
+
+  2. Worker role--A service component that is useful for generised  dovelepment and may perform
+                  background proccessing for a web role.A worker role is frequently used long
+                  running task that are non intrective. 
+
+
+ 22. VIRTUAL MACHINE--It is a kind of server. Vm is a computer file,
+                     typically called an image. Which behave like an actual
+                     computer. In other word creating a computer within
+                     a computer.
+    ** Multiple vm can run simultaneously on the same physical computer.
+ 
+
+ CREATE::::  STEPS--click on add 
+            1.Basic--subscription name + resource GRoup name+
+                     Virtual machine name + Region name + size (same)
+                     if size increase then cost will be increase
+            2.DISK--select OS disk type-premium   SSD ***(SElect)
+                                        Standared SSD
+                                        Standred  HDO
+            ( niche wale dono le skte h (dono low cost k hote h) saste hote h but wo time jyada lenge)
+           3. click on NETWORKING --Vnet name + ----------etc.
+ 
+ How to access VM-- RDp download krke IP dal skte h OORR remote destop
+                   pr jakr IP dal kr access kr skte h.
+   1. VMss  2.load balencer 3. apllication gateway 4. traffic manager 5. point to point and point to site
+  6. Azure sql database 7. Azure monitor 8. network watcher 9.  
+
+
+
+
+ 23. VIRTUAL NETWORK--- * Vnet enables communications b/w multiple computers
+                        ,VMs, virtual servers or other devices.
+
+                       * You can divide a vnet into multiple subnets
+                         for organization and security.
+                       * A subnet is a range of IP addresses in the Vnet.
+
+ HOW TO CREATE ::: STEPS--click on add then add vnet name +
+                         add address space(10.0.0.0/16) +
+                         subscription name +resource group name +
+                        LOcation + subnet name + address range(10.0.0.0/16)
+                        + click on create vnet
+
+
+ 24. LOAD BALANCER--VM in the same cloud service or virtual network 
+                    can communicate with each-other directly using their private 
+                    IP addresses .Azure load balancer randomly distribute
+                    a specific type of incoming traffic across multiple vm.
+
+
+    (internal load balancer k liye minimum 3 vm chahiye . 2 vm ko load balancer k through balance kroge 
+         1 vm se load check krenge  )                
+
+ HOW TO CREATE--STEPS--1.first  we will create Vnet.
+                       2. than  we will create vm(3).
+                       3.after createing vnet and vm create load balancer
+                       STEPS::-load balancer name + Type(internal or public load balancer)
+                               + SKU (Basic(1000 instance tk )) +
+                               vnet(jo hmne bnaya h ) + subnet(jo hmne bnaya h)
+                               + IP address (dynamic) + subscription(free trial) 
+                               + resource group + location .
+  after create load balancer---then click on load balancer + click backend pool + click 
+  add 2 vm in backend pool(dono  vm balance  krni h) + click health prob +
+   add name(health probe name) + click protocol (HTTP(internet k through connect krna h) +
+   unhealty threshold(2)
+  
+  last click on load balancing rule + add name + etc.....
+  dono vm ki RDP lenge (server install k liye)
+
+
+
+
+26.AZURE SQL DATABASE---  Azure SQL Database is a fully managed 
+                          database service, which means that Microsoft
+                          operates SQL Server for you and ensures its
+                          availability and performance.
+
+
+
+
