@@ -1,4 +1,4 @@
-  
+  radhe radhe radhe radhe radhe
   1.Azure Diagnostics extension-- is an agent in Azure Monitor that collects monitoring data 
     from the guest operating system of Azure compute resources including virtual machines.
 
