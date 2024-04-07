@@ -1,0 +1,109 @@
+  
+  1.Azure Diagnostics extension-- is an agent in Azure Monitor that collects monitoring data 
+    from the guest operating system of Azure compute resources including virtual machines.
+
+
+  2.To implement infrastructure as code for your Azure solutions, use Azure Resource Manager
+    templates (ARM templates). The template is a JavaScript Object Notation (JSON) file that 
+    defines the infrastructure and configuration for your project.
+
+
+  3.Windows is a graphical operating system developed by Microsoft. It allows users to view and 
+    store files, run the software, play games, watch videos, and provides a way to connect
+    to the internet.
+
+
+  4.Azure Firewall--It is a managed, cloud-based network security service that protects your 
+    Azure Virtual Network resources.
+
+  ** A firewall is a network security device that monitors incoming and outgoing network traffic. 
+
+
+
+  5.Azure PowerShell is a set of cmdlets(lightweight command) for managing Azure resources 
+    directly from the PowerShell command line.Azure PowerShell is designed to make it easy to
+    learn and get started with, but provides powerful features for automation.
+
+  **  
+
+  6.
+  **  Public IP addresses allow Internet resources to communicate to Azure resources.
+  **  Private IP addresses: Used for communication within an Azure virtual network (VNet), 
+      and your on-premises network when you use a VPN gateway
+  
+  8.LINUX -- It is a kernal, that directly manages a system's hardware and resources, like CPU,
+              memory, and storage.
+ ((((** It is the main layer between the OS and hardware, and it helps with process and 
+    memory management, file systems, device control and networking.)))))
+
+
+   ***  COMMAND---  CAL-using for calender 
+                    DATE-display the date
+                    BC-used for calculator
+                    SCRIPT-used for recording
+                    MAILX-used for mailing
+                    PASSWORD-changing password
+
+
+
+
+   ** HOW TO CHECK MY SYSTEM IP ADDERESS-- Open command prompt --write ipconfig/all
+  OOORR CLICK ON INTERNET SETTING + OPEN NETWORK  SHARING CENTER
+
+
+  9.  HOW TO ESTABILISHING CONNECTION B/W TWO VM IN SINGLE VNET.
+
+
+     STEPS--create a vnet + create two vm + take it RDP OF TWO VM +window firewall-off
+            + go inside vm select cmd prompt then ping private IP 
+
+
+
+  10. A firewall is a network security device that monitors incoming and outgoing network traffic. 
+
+
+   ** HOW  MIGRATE TO RESOURCE GROUP.
+
+   **  HOW TO ASSIGN PUBLIC IP IN AZURE VM-- CLICK ON VM + THEN CLIck in networking +
+                                             then click NIC + click ip configuration + 
+                                             then create new public ip
+
+
+
+    10.  STORAGE--STEPS:
+
+
+
+  ** container - it is a folder.
+
+
+  **  HOW TO ATTECH EXTRA DISK(SPASE OR STORge) IN AZURE VM-- steps- first create vm + click on 
+ 
+     vm left side  click on disk select extra disk (suppose add 500gb) + take RDP OF vm
+     +  click server manager + click file and storage + then click disk + click 500gb and then 
+        click create a volume
+
+  **   HOW TO CREATE AND CONFIGURE NSG IN VM-- STEPS: 
+
+ ** NSG jis bhi vm pr lgega wo vm jis bhi vnet pr hogi aur us vnet k andr jitni bhi vms hongi
+     aaps m communicate krenge inbound pr or outbound pr.
+ 
+   ##  create vm  + in left side click on nsg + create nsg + click on nsg add 
+         inbound and outbound   network security rule +  
+
+    **  how to remove nsg from vm -- steps-- click on vm + left side click on networking + click
+         on NIC + LEFT CLICK ON NSG + click on edit + then select none + click. save 
+
+
+#### HOW TO  ATTECH MULTIPLE NIC  TO AZURE VM--- STEPS: click on vm + left side click on networking
+           +  click on attech NIC + THEN CREATE NEW NIC AND SAVE .
+
+  *** Yes in Virtual machines (VM) in Azure can have multiple network interfaces, each with one
+      or more IP addresses associated with them. These IP addresses are private or public.
+
+
+ ### Azure DNS is a hosting service for DNS domains that provides name resolution by using Microsoft Azure infrastructure.(domain name system)
+
+
+ *** Log Analytics is a tool in the Azure portal to edit and run log queries from data collected
+     by Azure Monitor Logs and interactively analyze their results. 
