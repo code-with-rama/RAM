@@ -1,0 +1,102 @@
+       
+
+                  ########            STORAGE             #######
+                     
+
+ #####  . BLOCK BLOB               |          PAGE BLOB                  |           APPEND BLOB
+
+-------------------------------------------------------------------------------------------------
+
+ 
+  1.Usually used for streaming      Usually used for non-Sequential    Usually used for activities
+    Sequential Data like Video.       Read and Write.                  like Logging.
+
+  2.Each Block can be up to 4 MB.	Page can be up to 512 bytes.	Each Block can be up to 4 MB.
+
+ 
+  3.Up to 50,000 Blocks can be created.     No limitations on the number  Up to 50,000 Blocks can be created.  
+                                            of Pages created.
+
+
+    
+  ##### AZURE FILE SHARE--file share is a convenient place for cloud applications to write
+                          their logs, metrics, and crash dumps.
+  (  ?????? ????????? ?? ??? ???? ???, ????????? ?? ????? ??? ????? ?? ??? ????? ???? ?? ????????? ????? ??? ) 
+
+   #### AZURE FILE SYNC --  Azure File Sync is a service that allows you to cache several Azure
+                            file shares on an on-premises Windows Server or cloud VM. 
+
+  (??????? ????? ???? ?? ??? ???? ?? ?? ???? ??-?????????? ?????? ????? ?? ?????? ???? ?? ?? ??????? ????? ?????? ?? ??? ???? ?? ?????? ???? ??? )
+  
+ 
+
+
+                    ########          AZURE MONITOR          ########
+
+
+
+
+ ### AZURE AUTOMATION ACCOUNT-- allows you to automate your Azure management tasks and to
+                             orchestrate actions across external systems from right within Azure.
+
+
+
+ #### AZURE MONITOR AGENT--The Azure Monitor agent (AMA) collects monitoring data from the guest
+                     operating system of Azure virtual machines and delivers it to Azure Monitor.
+
+  ** Azure Diagnostics extension-- is an agent in Azure Monitor that collects monitoring data 
+    from the guest operating system of Azure compute resources including virtual machines.
+
+
+
+ ####  HOW TO CREATE ALERT IN AZURE MONITOR--  STEPS:::
+
+
+
+     click on monitor + left side click on alert + SELECT resource to monitor
+
+     
+      + you’ll add a condition to 
+      trigger the alert add-condition   a. selecting the metric you’d like to monitor.
+
+    b.set the threshold you’d like to alert on  + 
+     Add an action group to the alert  +  
+     Finally, input alert details and save your new alert.
+
+   ##### Log Analytics--- is a tool in the Azure portal to edit and run log queries from data 
+                         collected by Azure Monitor Logs and interactively analyze their results. 
+
+
+
+   ### Metrics : Azure Monitor Metrics is a feature of Azure Monitor that collects numeric data
+                 from monitored resources into a time series database
+
+
+  #### How does Application Insights work----
+       For integrating the  Application Insights you need to install instrumentation package SDK
+       (Standard development Kit) in your application.
+
+
+
+  ### Azure monitor collects-- data from various sources such as applications, operating systems, 
+      Azure resources, etc. in the form of metrics and logs.
+
+   DIFFERENCE B/W AZURE MONITOR AND APP INSIGHTS.
+
+
+ #### These insights can help you maximize the availability and performance of your applications.
+      Azure Monitor works by ingesting metrics and logs data from a wide variety of 
+      sources—application, OS, resources. 
+ 
+
+
+  ##### HOW TO CREATE LOG ANALYTICS WORKSPACE -----STEPS:;:: CLICK on log analytics-  in BASIC--
+        + add resource group name + add log analytics name +
+       add location  + ADD PRICING TIERS + CREATE
+
+
+
+
+
+                     
+           
